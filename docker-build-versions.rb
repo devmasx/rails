@@ -173,5 +173,5 @@ rails_versions.each do |version|
   # tag_name = base_image.split(':').last
   dockerfile_build(version)
   docker_build(version)
-  # docker_push(version)
+  docker_push(version)
 end
